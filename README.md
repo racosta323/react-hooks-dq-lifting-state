@@ -74,3 +74,13 @@ to get this feature working.
 
 HINT: Consider using `map` to iterate over the array of tweets. Make sure to
 only update the tweet object that the user clicked!
+
+
+App (moved state right here)
+    Header (originally: use state)
+        Menu (toggle is here)
+    TweetsContainer (use state)
+        User List
+        Tweet List
+            Tweet Item
+    DarkModeWrapper (passed props from App)
